@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: 9px 0px 4px -6px rgba(34, 60, 80, 0.25);
+}
+
+.left-part {
+    position: relative;
+    top: 10px;
+    right: -150px;
+    max-width: 342px;
+    min-height: 800px;
+    background-color: rgb(211, 211, 211);
+    border: none;
+}
+
+.left-part__header {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    max-height: 140px;
+    border: 1px solid rgb(0, 0, 168);
+    background-color: rgb(0, 0, 168);
+    color: white;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.left-part__title { 
+    font-size: 32px;
+    text-align: center;
+}
+.left-part__text {
+    text-align: center;
+}
+
+.left-part__bend {
+    position: absolute; 
+    top: 105px;
+    min-height: 50px;
+    min-width: 342px;
+    padding: 20px;
+    background-color: rgb(0, 0, 168);   
+    border-radius: 100%;
+}
+.left-part__info {
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 168);
+}
+
+.text {
+    text-align: center;
+}
+
+.left-part__skills {
+    padding-bottom: 70px;
+}
+
+.skills {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.right-part {
+    max-width: 798px;
+    max-height: 800px;
+    
+}
+
+.right-part {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    max-width: 798px;
+    min-height: 800px;
+    background-color: white;
+}
+
+.data {
+    position: relative;
+}
+
+.user {
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.email {
+    position: absolute;
+    top: 33px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.phone {
+    position: absolute;
+    top: 68px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.home {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.calendar {
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.location {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.gender {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.state {
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.four-circles {
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-circles1 {
+    position: absolute;
+    right: 20px;
+    top: 42px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-circles2 {
+    position: absolute;
+    right: 20px;
+    top: 93px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-circles3 {
+    position: absolute;
+    right: 20px;
+    top: 143px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-circles4 {
+    position: absolute;
+    right: 20px;
+    top: 191px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-circles5 {
+    position: absolute;
+    right: 20px;
+    top: 240px;
+    width: 70px;
+    height: 70px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.pre-ul {   
+    margin-bottom: 60px;
+}
+
